@@ -1,4 +1,9 @@
 <?php
+//could do 'use Classes'
+//then namespace Books
+//namespace member
+// then you might not need file directory
+
 require '../Classes/member.php';
 require '../Classes/Book.php';
 

@@ -46,7 +46,7 @@ public function updateNumber ($newNumber){
 public function addBook (Book $newBook){
     $newBook -> borrowBook();
     $newBookList = array_push($this-> memberbooks, $newBook);
-    $this -> memberbook = $newBookList;
+    $this -> memberbooks = $newBookList;
       return $this;
 }
 
